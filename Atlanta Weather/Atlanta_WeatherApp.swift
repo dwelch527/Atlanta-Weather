@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct Atlanta_WeatherApp: App {
+    let metarViewModel = MetarViewModel(metarData: [])
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WeatherView().environmentObject(metarViewModel)
         }
     }
 }
