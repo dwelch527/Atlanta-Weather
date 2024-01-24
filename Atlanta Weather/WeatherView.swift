@@ -45,7 +45,7 @@ struct WeatherView: View {
                     .foregroundStyle(.white)
                 Text("Longitude: \(metarData?.first?.longitude ?? 0)")
                     .foregroundStyle(.white)
-                Text("Visibility: \(metarData?.first?.visibility ?? "")")
+                Text("Visibility: \(metarData?.first?.visibility ?? 0.0)")
                     .foregroundStyle(.white)
                 Text("*Current weather for \(metarData?.first?.airportName ?? "")*")
                     .font(.callout)

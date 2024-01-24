@@ -13,13 +13,13 @@ struct MetarData: Codable {
     let receiptTime: String?
     let observationTime: Int?
     let reportTime: String?
-    let temp: Int?
+    let temp: Double?
     let dewPoint: Double?
     let windDirection: Int?
     let windSpeed: Int?
     let windGust: Int?
-    let visibility: String?
-    let altim: Int?
+    let visibility: Double?
+    let altim: Double?
     let seaLevelPressure: Double?
     let qcField: Int?
     let wxString: String?
@@ -28,7 +28,7 @@ struct MetarData: Codable {
     let minT: String?
     let maxT24: String?
     let minT24: String?
-    let precipitation: String?
+    let precipitation: Double?
     let precipitation3Hr: String?
     let precipitation6Hr: String?
     let precipitation24Hr: String?
@@ -89,13 +89,13 @@ struct MetarData: Codable {
         self.receiptTime = try container.decodeIfPresent(String.self, forKey: .receiptTime)
         self.observationTime = try container.decodeIfPresent(Int.self, forKey: .observationTime)
         self.reportTime = try container.decodeIfPresent(String.self, forKey: .reportTime)
-        self.temp = try container.decodeIfPresent(Int.self, forKey: .temp)
+        self.temp = try container.decodeIfPresent(Double.self, forKey: .temp)
         self.dewPoint = try container.decodeIfPresent(Double.self, forKey: .dewPoint)
         self.windDirection = try container.decodeIfPresent(Int.self, forKey: .windDirection)
         self.windSpeed = try container.decodeIfPresent(Int.self, forKey: .windSpeed)
         self.windGust = try container.decodeIfPresent(Int.self, forKey: .windGust)
-        self.visibility = try container.decodeIfPresent(String.self, forKey: .visibility)
-        self.altim = try container.decodeIfPresent(Int.self, forKey: .altim)
+        self.visibility = try container.decodeIfPresent(Double.self, forKey: .visibility)
+        self.altim = try container.decodeIfPresent(Double.self, forKey: .altim)
         self.seaLevelPressure = try container.decodeIfPresent(Double.self, forKey: .seaLevelPressure)
         self.qcField = try container.decodeIfPresent(Int.self, forKey: .qcField)
         self.wxString = try container.decodeIfPresent(String.self, forKey: .wxString)
@@ -104,7 +104,7 @@ struct MetarData: Codable {
         self.minT = try container.decodeIfPresent(String.self, forKey: .minT)
         self.maxT24 = try container.decodeIfPresent(String.self, forKey: .maxT24)
         self.minT24 = try container.decodeIfPresent(String.self, forKey: .minT24)
-        self.precipitation = try container.decodeIfPresent(String.self, forKey: .precipitation)
+        self.precipitation = try container.decodeIfPresent(Double.self, forKey: .precipitation)
         self.precipitation3Hr = try container.decodeIfPresent(String.self, forKey: .precipitation3Hr)
         self.precipitation6Hr = try container.decodeIfPresent(String.self, forKey: .precipitation6Hr)
         self.precipitation24Hr = try container.decodeIfPresent(String.self, forKey: .precipitation24Hr)

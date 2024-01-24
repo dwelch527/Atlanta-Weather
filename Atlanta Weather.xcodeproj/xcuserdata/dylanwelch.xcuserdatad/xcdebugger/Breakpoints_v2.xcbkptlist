@@ -7,16 +7,142 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "CB42F61C-06EB-400D-96D4-CEA1D67460D6"
+            uuid = "963E7F63-8DB2-4644-8D87-DE00F77E28EF"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Atlanta Weather/WeatherView.swift"
+            filePath = "Atlanta Weather/Models/MetarData.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "88"
-            endingLineNumber = "88"
-            landmarkName = "fetchWeatherData()"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "init(from:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "963E7F63-8DB2-4644-8D87-DE00F77E28EF - 36e73b70c61e7b64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Atlanta_Weather.MetarData.init(from: Swift.Decoder) throws -&gt; Atlanta_Weather.MetarData"
+                  moduleName = "Atlanta Weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dylanwelch/Projects/RWL/Atlanta%20Weather/Atlanta%20Weather/Models/MetarData.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "5155">
+               </Location>
+               <Location
+                  uuid = "963E7F63-8DB2-4644-8D87-DE00F77E28EF - 36e73b70c61e7b64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Atlanta_Weather.MetarData.init(from: Swift.Decoder) throws -&gt; Atlanta_Weather.MetarData"
+                  moduleName = "Atlanta Weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dylanwelch/Projects/RWL/Atlanta%20Weather/Atlanta%20Weather/Models/MetarData.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "5109">
+               </Location>
+               <Location
+                  uuid = "963E7F63-8DB2-4644-8D87-DE00F77E28EF - 36e73b70c61e7b64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Atlanta_Weather.MetarData.init(from: Swift.Decoder) throws -&gt; Atlanta_Weather.MetarData"
+                  moduleName = "Atlanta Weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dylanwelch/Projects/RWL/Atlanta%20Weather/Atlanta%20Weather/Models/MetarData.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "5063">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "636FE429-1585-4E30-89E0-592691BFB523"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Atlanta Weather/Models/MetarData.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "init(from:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "636FE429-1585-4E30-89E0-592691BFB523 - 36e73b70c61e7b85"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Atlanta_Weather.MetarData.init(from: Swift.Decoder) throws -&gt; Atlanta_Weather.MetarData"
+                  moduleName = "Atlanta Weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dylanwelch/Projects/RWL/Atlanta%20Weather/Atlanta%20Weather/Models/MetarData.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "120"
+                  endingLineNumber = "120"
+                  offsetFromSymbolStart = "5011">
+               </Location>
+               <Location
+                  uuid = "636FE429-1585-4E30-89E0-592691BFB523 - 36e73b70c61e7b85"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Atlanta_Weather.MetarData.init(from: Swift.Decoder) throws -&gt; Atlanta_Weather.MetarData"
+                  moduleName = "Atlanta Weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dylanwelch/Projects/RWL/Atlanta%20Weather/Atlanta%20Weather/Models/MetarData.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "120"
+                  endingLineNumber = "120"
+                  offsetFromSymbolStart = "4965">
+               </Location>
+               <Location
+                  uuid = "636FE429-1585-4E30-89E0-592691BFB523 - 36e73b70c61e7b85"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Atlanta_Weather.MetarData.init(from: Swift.Decoder) throws -&gt; Atlanta_Weather.MetarData"
+                  moduleName = "Atlanta Weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dylanwelch/Projects/RWL/Atlanta%20Weather/Atlanta%20Weather/Models/MetarData.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "120"
+                  endingLineNumber = "120"
+                  offsetFromSymbolStart = "4919">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9426533A-07B1-42B8-A9D9-AD1EA6151011"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Atlanta Weather/Models/MetarData.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "init(from:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
